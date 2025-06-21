@@ -3,6 +3,6 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-# Example usage
+# Example
 num = int(input("Enter a number: "))
 print(f"Factorial of {num} is {factorial(num)}")
